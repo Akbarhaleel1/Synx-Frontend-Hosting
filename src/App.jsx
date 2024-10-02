@@ -31,6 +31,9 @@ const App = () => {
 
   return (
     <main className="relative">
+    <div>
+      this is hte home page
+    </div>
       <Router>
         <Routes>
           <Route path="/reviews" element={<Reviews />} />
